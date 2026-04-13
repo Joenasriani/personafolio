@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SocialLinks from '@/components/SocialLinks';
 
 const features = [
   'Paste websites, Linktree pages, portfolios, videos, and press links.',
@@ -29,6 +30,9 @@ export default function HomePage() {
               <a href="https://github.com/Joenasriani/personafolio" className="rounded-2xl border border-border px-5 py-3 font-medium text-text">
                 View repository
               </a>
+            </div>
+            <div className="mt-6">
+              <SocialLinks />
             </div>
           </section>
 
